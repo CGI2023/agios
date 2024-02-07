@@ -79,7 +79,7 @@ ul li:hover a {
 }
 .light {
 	font-weight: bold;
-	color: #717070;
+	color: #00ff0d;
 }
 .tagline {
 	text-align: center;
@@ -147,7 +147,7 @@ ul li:hover a {
 }
 /* Parallax Section */
 .banner {
-	background-color: #2D9AB7;
+	background-color: #bd0d0d;
 	background-image: url(../images/parallax.png);
 	height: 400px;
 	background-attachment: fixed;
@@ -331,7 +331,7 @@ nav ul li {
 	text-align: center;
 }
 .banner {
-	background-color: #2D9AB7;
+	background-color: #000000;
 	background-image: none;
 }
 .tagline {
