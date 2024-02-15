@@ -22,8 +22,8 @@ body {
 header {
 	width: 100%;
 	height: 5%;
-	background-color: #52bad5;
-	border-bottom: 1px solid #2C9AB7;
+	background-color: #ff7676;
+	border-bottom: 1px solid #ff7676;
 }
 .logo {
 	color: #fff;
@@ -73,13 +73,13 @@ ul li:hover a {
 }
 /* Hero Section */
 .hero {
-	background-color: #B3B3B3;
+	background-color: #a7a7a7;
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
 .light {
 	font-weight: bold;
-	color: #00ff0d;
+	color: #ff0000;
 }
 .tagline {
 	text-align: center;
@@ -105,7 +105,7 @@ ul li:hover a {
 	padding-right: 25px;
 	padding-top: 35px;
 	display: inline-block;
-	background-color: #FFFFFF;
+	background-color: linear-gradient(blue, pink);
 	margin-top: 0px;
 }
 /* Stats Gallery */
@@ -225,11 +225,36 @@ footer .footer_column p {
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
-	border: 3px solid #FFFFFF;
-	color: #FFFFFF;
+	border: 3px solid #007bff;
+	color: #007bff;
+	transition: all 0.3s linear;
+}
+.button2 {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #ff0000;
+	color: #ff0000;
 	transition: all 0.3s linear;
 }
 .button:hover {
+	background-color: #FEFEFE;
+	color: #C4C4C4;
+	cursor: pointer;
+}
+.button2:hover {
 	background-color: #FEFEFE;
 	color: #C4C4C4;
 	cursor: pointer;
